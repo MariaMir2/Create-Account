@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Create Account</title> 
+        <link rel="stylesheet" href="style.css" type="text/css"/> 
+    </head> 
+    <body>
+        <div id="formulario">
+            <form id="form" class="form">
+                <h1 class="title">Create Account</h1>
+                
+                <label for="" class="label">Nombre</label><br/>
+                <div class="inputNombre">
+                    <input type="text" id="name" name="nombre">                 
+                    <img id="imagen-errorN" class="svg" src = "./images/error-icon.svg">
+                    <img id="imagen-okN" class="svg" src = "./images/success-icon.svg"/>
+                    <br/>
+                    <p id="faltaN">Rellene este campo</p>
+                </div><br/>
+
+                <label for="" class="label">Email</label><br/>
+                <div class="inputEmail">
+                    <input type="email" id="email" name="correo" value="" placeholder="xxx@dominio.xxx" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"/>
+                    <img id="imagen-errorE" class="svg" src = "./images/error-icon.svg">
+                    <img id="imagen-okE" class="svg" src = "./images/success-icon.svg"/>
+                    <br/>   
+                    <p id="faltaE">Rellene este campo</p> 
+                </div><br/>
+
+                <label for="" class="label">Clave</label><br/>
+                <div class="inputClave">
+                    <input type="password" id="password" value="" name="clave"/>
+                    <img id="imagen-errorC" class="svg" src = "./images/error-icon.svg">
+                    <img id="imagen-okC" class="svg" src = "./images/success-icon.svg"/>
+                    <br/>
+                    <p id="faltaC">Rellene este campo</p> 
+                </div><br/>
+
+                <label for="" class="label">Confirme su clave</label><br/>
+                <div class="inputConfClave">
+                    <input type="password" id="passwordC" value="" name="claveC"/>
+                    <img id="imagen-errorCC" class="svg" src = "./images/error-icon.svg">
+                    <img id="imagen-okCC" class="svg" src = "./images/success-icon.svg"/>
+                    <br/>
+                    <p id="faltaCC">Rellene este campo</p> 
+                </div>
+                <input type="submit" class="submitBtn" value="ENVIAR"></button><br/>
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript" src="index.js"> 
+    </script> 
+</html>

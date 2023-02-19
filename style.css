@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+/* Get rid of all default margins/paddings. Set typeface */
+
+body {
+    box-sizing: border-box;
+    margin: 55px;
+    padding: 0;
+    background-color: #242933;
+    color:#abb9e0d4;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2f3644;
+    width: 320px;
+    border: 3px solid #373d5098;
+    border-radius: 8px;
+    padding: 10px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 35px;
+}
+
+.label {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+p{
+    color:#2f3644;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+.inputNombre,
+.inputEmail,
+.inputClave,
+.inputConfClave {
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 17px;
+    margin-top: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+#name,
+#email,
+#password,
+#passwordC {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #c4c5c8;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    z-index: 1;
+}
+
+.svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 300px;
+    top: 30%;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: auto;
+    height: 35%;
+    width: 103.5%;
+    padding: 12px;
+    border: 3px solid #1c202a;
+    background-color: #6c63ff;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    color: white;
+    border-radius: 6.5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+  
+.submitBtn:hover {
+    border: 2px solid #e4e4e4;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    background-color: #6c63ff;
+    transform: translateY(-2px);
+}
